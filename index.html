@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Objects Demo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div id="ui">
+    <h2>3D Objects Demo</h2>
+    <button onclick="addCube()">Add Cube</button>
+    <button onclick="addSphere()">Add Sphere</button>
+    <button onclick="addCone()">Add Cone</button>
+    <button onclick="addTorus()">Add Torus</button>
+    <button id="clear-btn" onclick="clearScene()">Clear Scene</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
